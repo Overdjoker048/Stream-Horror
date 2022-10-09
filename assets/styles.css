@@ -1,0 +1,121 @@
+body{
+    background-color: #333333;
+}
+
+nav.menu ul li.btn{
+    display: inline-block;
+    list-style-type: None;
+}
+
+nav.menu ul li.page_on{
+    display: inline-block;
+    list-style-type: None;
+}
+
+nav.menu ul li.btn a{
+    text-decoration: None;
+    color: rgb(155, 155, 155);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-family: proxima-nova,sans-serif;
+}
+
+nav.menu ul li.btn:hover a{
+    text-decoration: underline #FF0000;
+    color: #FF0000;
+    transition: 300ms all;
+}
+
+nav.menu ul li.page_on:hover a{
+    color: #ffffff;
+    transition: 300ms all;
+}
+
+nav.menu ul li.page_on a{
+    background-color: #FF0000;
+    text-decoration: None;
+    color: #333333;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-family: proxima-nova,sans-serif;
+}
+
+p.copyright{
+    color: #FF0000;
+    padding-top: 300px;
+    text-align: center;
+}
+
+header{
+    padding: 200px;
+    background: url("textures/banniere.jpg") no-repeat;
+    background-size: 100%;
+}
+
+p.text{
+    color: rgb(170, 170, 170);
+    font-size: 30px;
+    text-align: center;
+    font-family: proxima-nova,sans-serif;
+}
+
+div#info{
+    justify-content: space-evenly;
+    grid-gap: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 75px;
+}
+
+div#recent{
+    justify-content: space-evenly;
+    grid-gap: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 75px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+div.movie iframe{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.subtitle{
+    color: #FF0000;
+    font-size: 50px;
+    font-family: proxima-nova,sans-serif;
+    text-align: center;
+}
+
+a.subtitle{
+    display: block;
+    color: #FF0000;
+    font-size: 50px;
+    font-family: proxima-nova,sans-serif;
+    text-align: center;
+    text-decoration: underline red;
+}
+
+div.movie{
+    background-color: #222222;
+    border-radius: 20px;
+    width: 900px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
